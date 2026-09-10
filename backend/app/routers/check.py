@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
 
 from ..holehe_client import check_email
 
@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 class CheckRequest(BaseModel):
-    email: EmailStr
+    email: str
     timeout: int = 10
 
 

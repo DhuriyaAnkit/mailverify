@@ -3,4 +3,5 @@ uvicorn[standard]>=0.34.0
 holehe>=1.61
 httpx>=0.28.0
 trio>=0.28.0
-pydantic>=2.10.0
+pydantic[email]>=2.10.0
+email-validator>=2.0.0
