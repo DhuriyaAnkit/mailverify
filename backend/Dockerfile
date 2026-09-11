@@ -4,10 +4,10 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir --upgrade pip
 
-COPY backend/requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY backend/ .
+COPY . .
 
 ENV PORT=8000
 EXPOSE 8000
