@@ -13,13 +13,6 @@ MailVerify is an end-to-end, full-stack intelligence platform that discovers onl
 
 ---
 
-## 💼 Resume & Project Highlights
-
-* **Engineered an asynchronous OSINT email identity verification platform** using **FastAPI (Python)** and **React / TypeScript**, performing concurrent account detection and recovery clue extraction across **120+ digital platforms** with sub-second lookup latency and smart rate-limiting.
-* **Architected a production-ready SaaS dashboard** featuring **Supabase Authentication**, credit-based usage quotas, real-time search streaming, automated search history persistence, and dynamic multi-tier subscription billing workflows.
-
----
-
 ## 📸 Application Screenshots
 
 ### 1. Landing & Home Page
