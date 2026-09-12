@@ -22,14 +22,25 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div>
-            <div className="logo-group" style={{ marginBottom: '16px' }}>
-              <div className="logo-icon">
+            <div className="logo-group" style={{ marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <div
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '8px',
+                  border: '2px solid #09090b',
+                  backgroundColor: '#ffffff',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexShrink: 0,
+                }}
+              >
                 <svg width="18" height="18" viewBox="0 0 100 100" fill="none">
-                  <rect x="8" y="8" width="84" height="84" rx="22" stroke="#09090b" strokeWidth="8" />
-                  <path d="M 28 48 L 42 62 L 72 32" stroke="#0066cc" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M 28 48 L 42 62 L 72 32" stroke="#0066cc" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <span style={{ fontSize: '16px', fontWeight: 800, fontFamily: 'var(--font-heading)', color: 'var(--text-primary)' }}>
+              <span style={{ fontSize: '18px', fontWeight: 800, fontFamily: 'var(--font-heading)', color: 'var(--text-primary)', letterSpacing: '-0.5px' }}>
                 MailVerify
               </span>
             </div>

@@ -1,0 +1,970 @@
+[
+  {
+    "id": "aboutme",
+    "name": "About.me",
+    "rawName": "aboutme",
+    "domain": "aboutme.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "rawName": "adobe",
+    "domain": "adobe.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "rawName": "amazon",
+    "domain": "amazon.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "amocrm",
+    "name": "amoCRM",
+    "rawName": "amocrm",
+    "domain": "amocrm.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "anydo",
+    "name": "Any.do",
+    "rawName": "anydo",
+    "domain": "any.do",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "archive",
+    "name": "Archive",
+    "rawName": "archive",
+    "domain": "archive.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "armurerieauxerre",
+    "name": "Armurerieauxerre",
+    "rawName": "armurerieauxerre",
+    "domain": "armurerieauxerre.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian",
+    "rawName": "atlassian",
+    "domain": "atlassian.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "axonaut",
+    "name": "Axonaut",
+    "rawName": "axonaut",
+    "domain": "axonaut.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "babeshows",
+    "name": "Babeshows",
+    "rawName": "babeshows",
+    "domain": "babeshows.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "badeggsonline",
+    "name": "Badeggsonline",
+    "rawName": "badeggsonline",
+    "domain": "badeggsonline.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "biosmods",
+    "name": "Biosmods",
+    "rawName": "biosmods",
+    "domain": "biosmods.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "biotechnologyforums",
+    "name": "Biotechnologyforums",
+    "rawName": "biotechnologyforums",
+    "domain": "biotechnologyforums.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "bitmoji",
+    "name": "Bitmoji",
+    "rawName": "bitmoji",
+    "domain": "bitmoji.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "blablacar",
+    "name": "BlaBlaCar",
+    "rawName": "blablacar",
+    "domain": "blablacar.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "blackworldforum",
+    "name": "Blackworldforum",
+    "rawName": "blackworldforum",
+    "domain": "blackworldforum.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "blip",
+    "name": "Blip",
+    "rawName": "blip",
+    "domain": "blip.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "blitzortung",
+    "name": "Blitzortung",
+    "rawName": "blitzortung",
+    "domain": "blitzortung.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "bluegrassrivals",
+    "name": "Bluegrassrivals",
+    "rawName": "bluegrassrivals",
+    "domain": "bluegrassrivals.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "bodybuilding",
+    "name": "Bodybuilding",
+    "rawName": "bodybuilding",
+    "domain": "bodybuilding.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "buymeacoffee",
+    "name": "Buy Me a Coffee",
+    "rawName": "buymeacoffee",
+    "domain": "buymeacoffee.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "cambridgemt",
+    "name": "Cambridgemt",
+    "rawName": "cambridgemt",
+    "domain": "cambridgemt.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "caringbridge",
+    "name": "Caringbridge",
+    "rawName": "caringbridge",
+    "domain": "caringbridge.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "chinaphonearena",
+    "name": "Chinaphonearena",
+    "rawName": "chinaphonearena",
+    "domain": "chinaphonearena.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "clashfarmer",
+    "name": "Clashfarmer",
+    "rawName": "clashfarmer",
+    "domain": "clashfarmer.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "codecademy",
+    "name": "Codecademy",
+    "rawName": "codecademy",
+    "domain": "codecademy.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "codeigniter",
+    "name": "CodeIgniter",
+    "rawName": "codeigniter",
+    "domain": "codeigniter.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "codepen",
+    "name": "CodePen",
+    "rawName": "codepen",
+    "domain": "codepen.io",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "coroflot",
+    "name": "Coroflot",
+    "rawName": "coroflot",
+    "domain": "coroflot.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "cpaelites",
+    "name": "Cpaelites",
+    "rawName": "cpaelites",
+    "domain": "cpaelites.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "cpahero",
+    "name": "Cpahero",
+    "rawName": "cpahero",
+    "domain": "cpahero.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "cracked_to",
+    "name": "Cracked.to",
+    "rawName": "cracked_to",
+    "domain": "cracked.to",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "crevado",
+    "name": "Crevado",
+    "rawName": "crevado",
+    "domain": "crevado.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "deliveroo",
+    "name": "Deliveroo",
+    "rawName": "deliveroo",
+    "domain": "deliveroo.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "demonforums",
+    "name": "Demonforums",
+    "rawName": "demonforums",
+    "domain": "demonforums.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "devrant",
+    "name": "devRant",
+    "rawName": "devrant",
+    "domain": "devrant.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "diigo",
+    "name": "Diigo",
+    "rawName": "diigo",
+    "domain": "diigo.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "rawName": "discord",
+    "domain": "discord.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "rawName": "docker",
+    "domain": "docker.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "dominosfr",
+    "name": "Dominosfr",
+    "rawName": "dominosfr",
+    "domain": "dominosfr.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "ebay",
+    "name": "eBay",
+    "rawName": "ebay",
+    "domain": "ebay.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "ello",
+    "name": "Ello",
+    "rawName": "ello",
+    "domain": "ello.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "envato",
+    "name": "Envato",
+    "rawName": "envato",
+    "domain": "envato.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "eventbrite",
+    "name": "Eventbrite",
+    "rawName": "eventbrite",
+    "domain": "eventbrite.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "rawName": "evernote",
+    "domain": "evernote.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "fanpop",
+    "name": "Fanpop",
+    "rawName": "fanpop",
+    "domain": "fanpop.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "rawName": "firefox",
+    "domain": "mozilla.org",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "flickr",
+    "name": "Flickr",
+    "rawName": "flickr",
+    "domain": "flickr.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "rawName": "freelancer",
+    "domain": "freelancer.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "freiberg",
+    "name": "Freiberg",
+    "rawName": "freiberg",
+    "domain": "freiberg.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "garmin",
+    "name": "Garmin",
+    "rawName": "garmin",
+    "domain": "garmin.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "rawName": "github",
+    "domain": "github.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "rawName": "google",
+    "domain": "google.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "gravatar",
+    "name": "Gravatar",
+    "rawName": "gravatar",
+    "domain": "gravatar.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "rawName": "hubspot",
+    "domain": "hubspot.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "imgur",
+    "name": "Imgur",
+    "rawName": "imgur",
+    "domain": "imgur.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "insightly",
+    "name": "Insightly",
+    "rawName": "insightly",
+    "domain": "insightly.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "rawName": "instagram",
+    "domain": "instagram.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "issuu",
+    "name": "Issuu",
+    "rawName": "issuu",
+    "domain": "issuu.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "koditv",
+    "name": "Kodi",
+    "rawName": "koditv",
+    "domain": "kodi.tv",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "komoot",
+    "name": "Komoot",
+    "rawName": "komoot",
+    "domain": "komoot.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "laposte",
+    "name": "Laposte",
+    "rawName": "laposte",
+    "domain": "laposte.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "lastfm",
+    "name": "Last.fm",
+    "rawName": "lastfm",
+    "domain": "last.fm",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "lastpass",
+    "name": "LastPass",
+    "rawName": "lastpass",
+    "domain": "lastpass.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "mail_ru",
+    "name": "Mail Ru",
+    "rawName": "mail_ru",
+    "domain": "mail_ru.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "mybb",
+    "name": "MyBB",
+    "rawName": "mybb",
+    "domain": "mybb.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "myspace",
+    "name": "Myspace",
+    "rawName": "myspace",
+    "domain": "myspace.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "nattyornot",
+    "name": "Nattyornot",
+    "rawName": "nattyornot",
+    "domain": "nattyornot.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "naturabuy",
+    "name": "Naturabuy",
+    "rawName": "naturabuy",
+    "domain": "naturabuy.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "ndemiccreations",
+    "name": "Ndemiccreations",
+    "rawName": "ndemiccreations",
+    "domain": "ndemiccreations.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "nextpvr",
+    "name": "Nextpvr",
+    "rawName": "nextpvr",
+    "domain": "nextpvr.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "rawName": "nike",
+    "domain": "nike.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "nimble",
+    "name": "Nimble",
+    "rawName": "nimble",
+    "domain": "nimble.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "nocrm",
+    "name": "noCRM.io",
+    "rawName": "nocrm",
+    "domain": "nocrm.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "nutshell",
+    "name": "Nutshell",
+    "rawName": "nutshell",
+    "domain": "nutshell.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "odnoklassniki",
+    "name": "OK.ru (Odnoklassniki)",
+    "rawName": "odnoklassniki",
+    "domain": "ok.ru",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "office365",
+    "name": "Microsoft 365",
+    "rawName": "office365",
+    "domain": "office.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "onlinesequencer",
+    "name": "Onlinesequencer",
+    "rawName": "onlinesequencer",
+    "domain": "onlinesequencer.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "parler",
+    "name": "Parler",
+    "rawName": "parler",
+    "domain": "parler.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "rawName": "patreon",
+    "domain": "patreon.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "rawName": "pinterest",
+    "domain": "pinterest.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "pipedrive",
+    "name": "Pipedrive",
+    "rawName": "pipedrive",
+    "domain": "pipedrive.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "plurk",
+    "name": "Plurk",
+    "rawName": "plurk",
+    "domain": "plurk.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "pornhub",
+    "name": "Pornhub",
+    "rawName": "pornhub",
+    "domain": "pornhub.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "protonmail",
+    "name": "ProtonMail",
+    "rawName": "protonmail",
+    "domain": "proton.me",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "rawName": "quora",
+    "domain": "quora.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "rambler",
+    "name": "Rambler",
+    "rawName": "rambler",
+    "domain": "rambler.ru",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "redtube",
+    "name": "Redtube",
+    "rawName": "redtube",
+    "domain": "redtube.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "rawName": "replit",
+    "domain": "replit.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "rocketreach",
+    "name": "RocketReach",
+    "rawName": "rocketreach",
+    "domain": "rocketreach.co",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "rawName": "samsung",
+    "domain": "samsung.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "seoclerks",
+    "name": "SEOClerks",
+    "rawName": "seoclerks",
+    "domain": "seoclerks.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "sevencups",
+    "name": "7 Cups",
+    "rawName": "sevencups",
+    "domain": "7cups.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "smule",
+    "name": "Smule",
+    "rawName": "smule",
+    "domain": "smule.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "rawName": "snapchat",
+    "domain": "snapchat.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "rawName": "soundcloud",
+    "domain": "soundcloud.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "sporcle",
+    "name": "Sporcle",
+    "rawName": "sporcle",
+    "domain": "sporcle.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "rawName": "spotify",
+    "domain": "spotify.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "strava",
+    "name": "Strava",
+    "rawName": "strava",
+    "domain": "strava.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "taringa",
+    "name": "Taringa!",
+    "rawName": "taringa",
+    "domain": "taringa.net",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "teamleader",
+    "name": "Teamleader",
+    "rawName": "teamleader",
+    "domain": "teamleader.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "teamtreehouse",
+    "name": "Treehouse",
+    "rawName": "teamtreehouse",
+    "domain": "teamtreehouse.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "tellonym",
+    "name": "Tellonym",
+    "rawName": "tellonym",
+    "domain": "tellonym.me",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "thecardboard",
+    "name": "Thecardboard",
+    "rawName": "thecardboard",
+    "domain": "thecardboard.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "therianguide",
+    "name": "Therianguide",
+    "rawName": "therianguide",
+    "domain": "therianguide.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "thevapingforum",
+    "name": "Thevapingforum",
+    "rawName": "thevapingforum",
+    "domain": "thevapingforum.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "tumblr",
+    "name": "Tumblr",
+    "rawName": "tumblr",
+    "domain": "tumblr.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "tunefind",
+    "name": "Tunefind",
+    "rawName": "tunefind",
+    "domain": "tunefind.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "venmo",
+    "name": "Venmo",
+    "rawName": "venmo",
+    "domain": "venmo.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "vivino",
+    "name": "Vivino",
+    "rawName": "vivino",
+    "domain": "vivino.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "voxmedia",
+    "name": "Vox Media",
+    "rawName": "voxmedia",
+    "domain": "voxmedia.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "vrbo",
+    "name": "Vrbo",
+    "rawName": "vrbo",
+    "domain": "vrbo.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "vsco",
+    "name": "VSCO",
+    "rawName": "vsco",
+    "domain": "vsco.co",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "wattpad",
+    "name": "Wattpad",
+    "rawName": "wattpad",
+    "domain": "wattpad.com",
+    "category": "Community",
+    "supported": true
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress",
+    "rawName": "wordpress",
+    "domain": "wordpress.com",
+    "category": "Developer",
+    "supported": true
+  },
+  {
+    "id": "twitter",
+    "name": "X (Twitter)",
+    "rawName": "twitter",
+    "domain": "twitter.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "xing",
+    "name": "XING",
+    "rawName": "xing",
+    "domain": "xing.com",
+    "category": "Professional",
+    "supported": true
+  },
+  {
+    "id": "xnxx",
+    "name": "Xnxx",
+    "rawName": "xnxx",
+    "domain": "xnxx.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "xvideos",
+    "name": "Xvideos",
+    "rawName": "xvideos",
+    "domain": "xvideos.com",
+    "category": "Other",
+    "supported": true
+  },
+  {
+    "id": "yahoo",
+    "name": "Yahoo",
+    "rawName": "yahoo",
+    "domain": "yahoo.com",
+    "category": "Social",
+    "supported": true
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "rawName": "zoho",
+    "domain": "zoho.com",
+    "category": "Professional",
+    "supported": true
+  }
+]

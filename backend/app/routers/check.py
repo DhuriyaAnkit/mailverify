@@ -38,3 +38,14 @@ async def check_email_endpoint(req: CheckRequest):
 @router.get("/check-email-status/{email}")
 async def check_email_status(email: str):
     return {"email": email, "status": "queue", "message": "Use POST /api/check-email to start a check"}
+
+
+@router.get("/websites")
+async def list_supported_websites():
+    from ..holehe_client import _import_submodules, _get_functions
+    modules = _import_submodules("holehe.modules")
+    websites = _get_functions(modules)
+    return {
+        "total": len(websites),
+        "names": sorted(list({fn.__name__ for fn in websites})),
+    }

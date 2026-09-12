@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Shield, Eye, EyeOff } from 'lucide-react';
+import { ArrowLeft, Shield, Eye, EyeOff, Loader2 } from 'lucide-react';
 import { supabase } from '../../../lib/supabaseClient';
+import { useToast } from '../../common/Toast';
 
 export const SignUp: React.FC = () => {
+  const { showToast } = useToast();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -20,6 +22,22 @@ export const SignUp: React.FC = () => {
   const handleGoToLogin = (e: React.MouseEvent) => {
     e.preventDefault();
     window.location.hash = '#login';
+  };
+
+  const handleOAuthLogin = async (provider: 'google' | 'github') => {
+    try {
+      setIsSubmitting(true);
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider,
+        options: {
+          redirectTo: window.location.origin,
+        },
+      });
+      if (error) throw error;
+    } catch (err: any) {
+      setIsSubmitting(false);
+      showToast(err.message || `Could not sign up with ${provider}`, 'error');
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -42,7 +60,9 @@ export const SignUp: React.FC = () => {
 
     if (error) {
       setMessage({ type: 'error', text: error.message });
+      showToast(error.message, 'error');
     } else {
+      showToast('Account created successfully! Check your inbox if verification is required.', 'success');
       setMessage({
         type: 'success',
         text: 'Account created successfully! If email verification is enabled, check your inbox to verify.'
@@ -165,9 +185,9 @@ export const SignUp: React.FC = () => {
           <div style={{
             padding: '12px 16px',
             borderRadius: '8px',
-            backgroundColor: 'rgba(16, 185, 129, 0.08)',
-            border: '1px solid rgba(16, 185, 129, 0.2)',
-            color: 'var(--success-color)',
+            backgroundColor: message.type === 'error' ? '#fef2f2' : 'rgba(16, 185, 129, 0.08)',
+            border: message.type === 'error' ? '1px solid #fecaca' : '1px solid rgba(16, 185, 129, 0.2)',
+            color: message.type === 'error' ? '#dc2626' : 'var(--success-color)',
             fontSize: '12.5px',
             lineHeight: 1.5,
             marginBottom: '20px',
@@ -182,6 +202,8 @@ export const SignUp: React.FC = () => {
           {/* Google OAuth */}
           <button 
             type="button" 
+            onClick={() => handleOAuthLogin('google')}
+            disabled={isSubmitting}
             className="btn btn-ghost" 
             style={{ 
               width: '100%', 
@@ -205,6 +227,8 @@ export const SignUp: React.FC = () => {
           {/* GitHub OAuth */}
           <button 
             type="button" 
+            onClick={() => handleOAuthLogin('github')}
+            disabled={isSubmitting}
             className="btn btn-ghost" 
             style={{ 
               width: '100%', 
@@ -327,9 +351,25 @@ export const SignUp: React.FC = () => {
             type="submit"
             className="playground-btn"
             disabled={isSubmitting}
-            style={{ width: '100%', justifyContent: 'center', height: '42px', fontSize: '13px', marginTop: '10px' }}
+            style={{
+              width: '100%',
+              justifyContent: 'center',
+              height: '42px',
+              fontSize: '13px',
+              marginTop: '10px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}
           >
-            {isSubmitting ? 'Creating account...' : 'Continue'}
+            {isSubmitting ? (
+              <>
+                <Loader2 size={16} className="animate-spin" />
+                <span>Creating account…</span>
+              </>
+            ) : (
+              'Create account'
+            )}
           </button>
         </form>
 
